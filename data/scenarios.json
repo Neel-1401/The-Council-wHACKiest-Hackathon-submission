@@ -1,0 +1,64 @@
+{
+  "goa": {
+    "title": "Weekend trip to Goa",
+    "match": ["goa"],
+    "trip": {
+      "initial": {
+        "trains": [
+          {"when": "Friday 9:30 PM", "class": "3A", "status": "WL 34", "fare": 845},
+          {"when": "Saturday 6:00 AM", "class": "3A", "status": "AVAILABLE 12", "fare": 845}
+        ],
+        "return_train": {"when": "Sunday 4:30 PM", "class": "3A", "status": "AVAILABLE 20", "fare": 845},
+        "hotel": {"name": "Sample stay, Baga", "from_price": 2150, "rooms_left": 6},
+        "weather": "Rain on Sunday after 2:00 PM"
+      }
+    },
+    "outings": {
+      "events": [{"name": "Live gig", "when": "Saturday 9:00 PM", "tickets_left": 40, "price": 1200}],
+      "dining": [{"name": "Beach shack dinner", "slot": "Saturday 7:30 PM", "party": 2}]
+    },
+    "wallet": {"balance_left": 7450, "month_days_left": 9},
+    "time": {
+      "events": [
+        {"title": "Lab record due", "when": "Monday 9:00 AM", "hard": true},
+        {"title": "Mom's birthday dinner", "when": "Sunday 8:00 PM", "hard": true}
+      ]
+    },
+    "health": {"sleep_hours_avg": 6.1, "steps_avg": 7400},
+    "family": {
+      "events": [{"title": "Mom's birthday dinner", "when": "Sunday 8:00 PM"}],
+      "contact": "Mom"
+    }
+  },
+  "mysuru": {
+    "title": "Friend's wedding in Mysuru",
+    "match": ["mysuru", "mysore", "wedding"],
+    "trip": {
+      "initial": {
+        "trains": [
+          {"when": "Saturday 6:15 AM", "class": "CC", "status": "WL 18", "fare": 455},
+          {"when": "Saturday 9:00 AM", "class": "2S", "status": "WL 41", "fare": 130}
+        ],
+        "buses": [{"when": "Saturday 7:00 AM", "seats_left": 0, "fare": 420}],
+        "hotel": {"name": "Sample stay, Mysuru", "from_price": 1800, "rooms_left": 3},
+        "weather": "Clear all weekend"
+      },
+      "after_watch": {
+        "trains": [
+          {"when": "Saturday 6:15 AM", "class": "CC", "status": "AVAILABLE 4", "fare": 455}
+        ],
+        "return_train": {"when": "Sunday 6:00 PM", "class": "CC", "status": "AVAILABLE 30", "fare": 455},
+        "hotel": {"name": "Sample stay, Mysuru", "from_price": 1800, "rooms_left": 3},
+        "weather": "Clear all weekend"
+      }
+    },
+    "outings": {
+      "events": [{"name": "Wedding reception", "when": "Saturday 7:00 PM", "tickets_left": null, "price": 0}],
+      "dining": []
+    },
+    "wallet": {"balance_left": 6200, "month_days_left": 9},
+    "time": {"events": [{"title": "Gym", "when": "Saturday 7:00 AM", "hard": false}]},
+    "health": {"sleep_hours_avg": 7.2, "steps_avg": 8100},
+    "family": {"events": [], "contact": "Friend's group"}
+  }
+}

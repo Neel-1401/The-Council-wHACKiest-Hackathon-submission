@@ -1,0 +1,9 @@
+fastmcp>=2.10
+fastapi
+uvicorn
+apscheduler>=3.10,<4
+httpx
+python-dotenv
+google-genai
+twilio
+pytest
